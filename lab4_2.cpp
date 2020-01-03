@@ -18,9 +18,5 @@ int main(){
 	cout << "Enter t (s) = ";
 	cin >> t;
   cout << "Distance = " << findDistance(u,a,t) <<endl;
-	// v = (s/t) - (0.5*a*t) ;
-	// cout << "v (m/s) = " << v << endl ;
-	// u = 2*s/t - v ;
-	// cout << "u (m/s) = " << u << endl ;
   return 0;
 }
